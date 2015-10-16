@@ -1,0 +1,23 @@
+{
+  "name": "polymer-study",
+  "version": "1.0.0",
+  "description": "A study using Google's Polymer",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyingkrai/polymer-study.git"
+  },
+  "keywords": [
+    "polymer",
+    "js"
+  ],
+  "author": "Davi Alves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flyingkrai/polymer-study/issues"
+  },
+  "homepage": "https://github.com/flyingkrai/polymer-study#readme"
+}
