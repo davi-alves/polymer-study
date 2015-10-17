@@ -1,0 +1,28 @@
+{
+  "name": "polymer-study",
+  "version": "1.0.0",
+  "homepage": "https://github.com/flyingkrai/polymer-study",
+  "authors": [
+    "Davi Alves <hey@davialves.com>"
+  ],
+  "description": "A study using Google's Polymer",
+  "main": "src/index.html",
+  "keywords": [
+    "polymer",
+    "js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0",
+    "google-map": "GoogleWebComponents/google-map#~1.1.4"
+  },
+  "devDependencies": {}
+}
