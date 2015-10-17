@@ -1,0 +1,26 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="contact-item">
+    <style>
+        .item-wrapper { display: flex; padding: 20px;}
+        .item-wrapper img { border-radius: 50%; margin-right: 40px;}
+        .item-wrapper h3 { margin: 0 10px 0 0; line-height: 80px;}
+        .item-wrapper span { line-height: 80px;}
+    </style>
+    <template>
+        <div class="item-wrapper">
+            <img src="{{item.img}}" alt="{{item.name}}" />
+            <h3>{{item.name}}</h3>
+            <span>{{item.email}}</span>
+        </div>
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: 'contact-item',
+        properties: {
+            item: Object
+        }
+    });
+</script>
